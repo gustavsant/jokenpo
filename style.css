@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #1E97FB;
+    height: 70px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+input{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    font-weight: 800;
+    font-size: 1.4rem;
+    color: white;
+    transition: width 1s;
+
+}
+input:hover{
+    cursor: pointer;
+    color: #FFF35D;
+    width: 180px;
+}
+.inputsContainer{
+    background-color: #1E97FB;
+    padding: 20px;
+    width: 60%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 30px;
+
+}
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.resultadoContainer{
+    display: flex;
+    justify-content: center;
+}
+.resultado{
+    background-color: #1E97FB;
+    margin-top: 50px;
+    width: 80%;
+    height: 200px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+#res{
+    color: white;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
+body{
+    background-color: #FFF35D;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    width: 100%;
+    background-color:#1E97FB;
+    bottom: 0;
+    position: absolute;
+    padding: 3px 0;
+}
+#winner{
+    color: white;
+    font-size: 1.7rem;
+}
+h1{
+    color: white;
+    font-size: 3rem;
+    padding: 5px;
+}
