@@ -43,6 +43,10 @@ input:hover{
     justify-content: space-around;
     align-items: center;
 }
+.escolha{
+    max-width: 30%;
+    height: auto;
+}
 
 
 .resultadoContainer{
@@ -57,6 +61,11 @@ input:hover{
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 #res{
+    color: white;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+#resTitulo{
     color: white;
     margin-top: 10px;
     font-size: 1.4rem;
